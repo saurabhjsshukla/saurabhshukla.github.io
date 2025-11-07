@@ -7,5 +7,4 @@ Cloud Architecture, DevOps, and Automation practices.
 
 ---
 
-© **Saurabh Shukla**  
-Multi-RDBMS | Cloud Architect | DevOps Expert
+© **Saurabh Shukla** — Multi-RDBMS | Cloud Architect | DevOps Expert

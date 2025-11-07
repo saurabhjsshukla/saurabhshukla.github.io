@@ -1,0 +1,58 @@
+site_name: "Saurabh Shukla Docs — Multi-RDBMS, DevOps & Cloud Knowledge Base"
+site_author: "Saurabh Shukla"
+site_description: "Centralized technical documentation covering Databases, DevOps, Cloud, and Automation"
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: blue
+    accent: indigo
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
+extra:
+  meta:
+    robots: noindex
+copyright: "© Saurabh Shukla"
+nav:
+  - Home: index.md
+  - RDBMS:
+      - Oracle 26ai: rdbms/oracle26ai.md
+      - PostgreSQL: rdbms/postgresql.md
+      - MySQL: rdbms/mysql.md
+      - SQL Server: rdbms/sqlserver.md
+  - No-SQL:
+      - MongoDB: nosql/mongodb.md
+      - AWS DynamoDB: nosql/dynamodb.md
+  - DevOps & Automation:
+      - GitHub: devops/github.md
+      - GitLab: devops/gitlab.md
+      - Ansible: devops/ansible.md
+      - Terraform: devops/terraform.md
+  - Containerization & Orchestration:
+      - Docker: containers/docker.md
+      - Podman: containers/podman.md
+      - Kubernetes: containers/kubernetes.md
+      - OpenShift: containers/openshift.md
+  - Cloud Platforms:
+      - OCI: cloud/oci.md
+      - AWS: cloud/aws.md
+      - Azure: cloud/azure.md
+      - GCP: cloud/gcp.md
+  - Monitoring & Observability:
+      - Prometheus: monitoring/prometheus.md
+      - Grafana: monitoring/grafana.md
+      - ELK/EFK Stack: monitoring/elk.md
+      - OEM: monitoring/oem.md
+      - CloudWatch: monitoring/cloudwatch.md
+  - Scripting & Programming:
+      - Python: scripting/python.md
+      - Bash: scripting/bash.md
+      - Shell: scripting/shell.md
+      - PowerShell: scripting/powershell.md
+  - OS & Virtualization:
+      - Linux (OEL/RHEL): os_virtualization/linux.md
+      - Oracle KVM: os_virtualization/oracle_kvm.md
